@@ -26,6 +26,11 @@
         },
       };
     </script>
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/4c82cc6d54.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,7 +41,8 @@
     <style>
       .font-adlam-display {
         font-family: "ADLaM Display", system-ui;
-        font-weight: 100;
+        font-weight: 50;
+        font-style: normal;
       }
     </style>
   </head>
@@ -44,7 +50,7 @@
     <header>
       <nav class="">
         <div class="navbar bg-background-color shadow-sm">
-          <div class="navbar-start">
+          <div class="navbar-start mx-36">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
@@ -73,21 +79,30 @@
                 <li><a>Contact us</a></li>
               </ul>
             </div>
-            <a class="text-xl text-semibold"
-              >Breeds<span class="text-yellow-color">4</span>Pets</a
+            <a class="text-xl text-semibold flex">
+              <img class="w-12 h-12" src="c1-assets/logo-header.png" alt="" />
+              Browse<span class="text-yellow-color">4</span>Pets</a
             >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><a>Breeds</a></li>
+              <li><a>Find a Pet</a></li>
               <li>
                 <a> Parent </a>
               </li>
               <li><a>Contact us</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
-            <a class="btn">Button</a>
+
+          <div class="navbar-end mx-36">
+            <div class="flex gap-3">
+              <i class="fa-regular fa-bell"></i>
+              <i class="fa-solid fa-magnifying-glass mx-auto"></i>
+            </div>
+            <div class="ml-10">
+              <a class="btn bg-transparent border border-yellow-500">Login</a>
+              <a class="btn btn-warning text-black">Register</a>
+            </div>
           </div>
         </div>
       </nav>
