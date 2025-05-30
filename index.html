@@ -26,6 +26,7 @@
         },
       };
     </script>
+
     <!-- Icons -->
     <script
       src="https://kit.fontawesome.com/4c82cc6d54.js"
@@ -113,7 +114,7 @@
         <div class="">
           <!-- titles -->
           <div class="lg:absolute">
-            <h2 class="text-5xl mb-4">
+            <h2 class="text-5xl mb-4 animate-bounce">
               Pamper Your Pet, <br />
               Because They Deserve <br />
               the Bes
@@ -123,7 +124,7 @@
               <br />
               your furry friends. Shop now and make tails wag with joy!
             </p>
-            <a class="btn btn-warning text-black">Find a pet</a>
+            <a class="btn btn-warning text-black animate-pulse">Find a pet</a>
           </div>
           <img class="-mt-10" src="c1-assets/cat-big.png" alt="" />
         </div>
@@ -436,8 +437,64 @@
         </div>
       </section>
 
+      <!-- Added New section created by me{Delivery}-->
+      <section class="mx-36 mb-50 py-16">
+        <div>
+          <h1 class="text-3xl font-bold mb-20">Deliver to your home</h1>
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+            <!-- Left Side Content -->
+            <div>
+              <div class="card bg-background-color shadow-xl">
+                <div class="card-body">
+                  <h2 class="card-title text-2xl">
+                    Fast & <span class="text-yellow-950">Safe Delivery</span>
+                  </h2>
+                  <p class="text-black">
+                    Get your pet's favorite products delivered straight to your
+                    door with speed and care.
+                  </p>
+                  <p class="text-blue-950">
+                    From food to toys, we make pet parenting easier with our
+                    reliable delivery service.
+                  </p>
+                  <div class="card-actions justify-start mt-4">
+                    <button class="btn btn-warning text-black">
+                      Order Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Side Image -->
+            <div>
+              <div class="card flex">
+                <figure>
+                  <img
+                    src="c1-assets/cute-pet-mid.png"
+                    alt=""
+                    class="rounded-xl w-52"
+                  />
+                  <img
+                    src="c1-assets/cute-pet-mid.png"
+                    alt=""
+                    class="rounded-xl w-32"
+                  />
+                  <img
+                    src="c1-assets/cute-dog-mid.png"
+                    alt=""
+                    class="rounded-xl w-52"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Everyday low Price -->
-      <section class="py-16 mx-36">
+      <section class="py-16 mx-36 -mb-44">
         <h1 class="text-3xl font-bold mb-20">Everyday low Price</h1>
         <!-- Cards -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -470,16 +527,26 @@
         </div>
       </section>
     </main>
-    <section class="mx-36 mb-24 bg-[#FFF9F4] border">
-      <div class="card card-side bg-base-100 shadow-sm">
+    <section
+      class="mx-36 mb-24 bg-[#FFF9F4] py-9 px-22 relative top-[265px] rounded-lg"
+    >
+      <div class="card card-side gap-28">
         <figure>
           <img class="w-52" src="c1-assets/cute-pet-mid.png" alt="Movie" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
+          <h2 class="text-3xl">Get Pawsome News!</h2>
+          <p>Exclusive training tips, ticks, product deals and more.</p>
+
+          <input
+            type="text"
+            placeholder="Enter email...."
+            class="input input-bordered rounded-lg p-4 -top-10"
+          />
+          <div class="">
+            <button class="btn btn-warning bg-yellow-500 px-5">
+              Subscribe
+            </button>
           </div>
         </div>
       </div>
